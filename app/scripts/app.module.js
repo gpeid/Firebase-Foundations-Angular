@@ -14,7 +14,7 @@
 
   function configFunction($routeProvider) {
     $routeProvider.when('/auth', {
-      templateUrl: 'auth/auth.html',
+      templateUrl: '../auth/auth.html',
       controller: 'AuthController',
       controllerAs: 'vm'
     });
